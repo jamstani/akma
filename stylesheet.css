@@ -1,18 +1,20 @@
-@font-face {
-    font-family: 'AccentGraphic';
-    src: url('AccentGraphic-Light.woff2') format('woff2'),
-        url('AccentGraphic-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+/* Webfont: AccentGraphic — Light (300) + Bold (700) */
+/* Using absolute jsDelivr URLs so it works anywhere */
+
+@font-face{
+  font-family: "AccentGraphic";
+  src: url("https://cdn.jsdelivr.net/gh/jamstani/akma@main/AccentGraphic-Light.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/jamstani/akma@main/AccentGraphic-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
-@font-face {
-    font-family: 'AccentGraphic';
-    src: url('AccentGraphic-Bold.woff2') format('woff2'),
-        url('AccentGraphic-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+@font-face{
+  font-family: "AccentGraphic";
+  src: url("https://cdn.jsdelivr.net/gh/jamstani/akma@main/AccentGraphic-Bold.woff2") format("woff2"),
+       url("https://cdn.jsdelivr.net/gh/jamstani/akma@main/AccentGraphic-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
-
